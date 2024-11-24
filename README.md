@@ -41,4 +41,30 @@ Invitacion de boda
     <p>Por favor, confirma tu asistencia:</p>
     <a href="#" class="button">Confirmar Asistencia</a>
 </body>
+<head>
+<meta charset="utf-8">
+<title>Contador regresivo</title>
+<link href="contador.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="micontador" data-final="2026/11/26">
+   <div class="num">
+      <div class="dig"><span>&nbsp;</span></div>
+      <div class="label">Días</div>
+   </div>
+   <div class="num">
+      <div class="dig"><span>&nbsp;</span></div>
+      <div class="label">Horas</div>
+   </div> 
+   <div class="num">
+      <div class="dig"><span>&nbsp;</span></div>
+      <div class="label">Min</div>
+   </div>
+   <div class="num">
+      <div class="dig"><span>&nbsp;</span></div>
+      <div class="label">Seg</div>
+   </div>
+</div> 
+<script src="contador.js"></script> 
+</body>
 </html>
