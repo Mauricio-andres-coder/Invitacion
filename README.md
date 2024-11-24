@@ -71,7 +71,7 @@ Invitacion de boda
     .number {
       font-size: 3em;
       font-weight: bold;
-      color: #e63946;
+      color: #000000;
     }
     .label {
       font-size: 1em;
