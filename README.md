@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 # Invitacion
 Invitacion de boda
 <html lang="es">
@@ -100,7 +99,7 @@ Invitacion de boda
     </div>
   </div>
   <script>
-    const weddingDate = new Date("2026-11-26T16:00:00").getTime(); 
+    const weddingDate = new Date("2026-11-21T16:00:00").getTime(); 
     function updateCountdown() {
       const now = new Date().getTime();
       const timeLeft = weddingDate - now;
