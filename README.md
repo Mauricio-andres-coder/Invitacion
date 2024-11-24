@@ -37,8 +37,8 @@ Invitacion de boda
 <body>
     <h1>¡Nos Casamos!</h1>
     <p>Te invitamos a celebrar nuestra boda.</p>
-    <div class="date">Fecha: 25 de mayo de 2025</div>
-    <div class="date">Lugar: Jardines del Sol, Santiago</div>
+    <div class="date">Fecha: 21 de Noviembre de 2026</div>
+    <div class="date">Lugar: Jardin Paraiso, Tequequitengo</div>
     <p>Por favor, confirma tu asistencia:</p>
     <a href="#" class="button">Confirmar Asistencia</a>
 </body>
