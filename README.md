@@ -36,7 +36,7 @@ Invitacion de boda
 <body>
     <h1>¡Nos Casamos!</h1>
     <p>Te invitamos a celebrar nuestra boda.</p>
-    <img src="Foto_sanpedro.jpeg" />
+    <background-image : src="Foto_sanpedro.jpeg" />
     <div class="date">Fecha: 21 de Noviembre de 2026</div>
     <div class="date">Lugar: Jardin Paraiso, Tequequitengo</div>
     <p>Por favor, confirma tu asistencia:</p>
