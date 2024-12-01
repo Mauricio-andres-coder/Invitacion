@@ -3,12 +3,12 @@ Invitacion de boda
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <body background="foto_sanpedro.jpeg" bgcolor="FFCECB">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Invitación de Boda</title>
     <style>
         body {
+            <body background="foto_sanpedro.jpeg" bgcolor="FFCECB">
             font-family: Arial, sans-serif;
             text-align: center;
             background-color: #fef9f3;
