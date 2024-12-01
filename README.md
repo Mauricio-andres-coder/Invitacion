@@ -9,12 +9,6 @@ Invitacion de boda
     <style>
         body {
             <body background="foto_sanpedro.jpeg" bgcolor="FFCECB">
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #fef9f3;
-            color: #333;
-            margin: 0;
-            padding: 20px;
         }
         h1 {
             color: #b38b6d;
