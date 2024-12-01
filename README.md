@@ -3,6 +3,8 @@ Invitacion de boda
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <body background="foto_sanpedro.jpeg" bgcolor="FFCECB">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Invitación de Boda</title>
     <style>
@@ -36,7 +38,7 @@ Invitacion de boda
 <body>
     <h1>¡Nos Casamos!</h1>
     <p>Te invitamos a celebrar nuestra boda.</p>
-    <background-image : src="Foto_sanpedro.jpeg" />
+    <image src="Foto_sanpedro.jpeg" />
     <div class="date">Fecha: 21 de Noviembre de 2026</div>
     <div class="date">Lugar: Jardin Paraiso, Tequequitengo</div>
     <p>Por favor, confirma tu asistencia:</p>
