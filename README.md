@@ -27,8 +27,8 @@ Invitacion de boda
 </head>
 <head>
 <body>   
-    <background-image="foto_sanpedro.jpeg">
-    
+    <background-image=url(README.md/Foto_sanpedro.jpeg)>
+      
 </body>
 </head>
 <body>
