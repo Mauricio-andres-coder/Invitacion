@@ -1,13 +1,12 @@
 # Invitacion
-<background-image:url(Invitacion/Foto_sanpedro.jpeg)>
 Invitacion de boda
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Invitación de Boda</title>
-    <style>
-        background-image:url(Invitacion/Foto_sanpedro.jpeg);
+    <style>{
+        background-image:url(Invitacion/Foto_sanpedro.jpeg);}
         
      </style>
 </head>
