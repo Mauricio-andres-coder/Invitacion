@@ -7,9 +7,6 @@ Invitacion de boda
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Invitación de Boda</title>
     <style>
-        body {
-            <background-image="foto_sanpedro.jpeg" bgcolor="FFCECB">
-        }
         h1 {
             color: #b38b6d;
         }
@@ -37,6 +34,7 @@ Invitacion de boda
     <div class="date">Lugar: Jardin Paraiso, Tequequitengo</div>
     <p>Por favor, confirma tu asistencia:</p>
     <a href="#" class="button">Confirmar Asistencia</a>
+    <background-image="foto_sanpedro.jpeg" bgcolor="FFCECB">
 </body>
 <html lang="en">
 <head>
