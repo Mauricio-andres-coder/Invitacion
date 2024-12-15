@@ -14,11 +14,11 @@
             margin: 0; /* Elimina márgenes */
         }
         h1 {
-            color: white;
+            color: green;
             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra para destacar texto */
         }
         p, .date, a {
-            color: yellow;
+            color: white;
         }
         a.button {
             display: inline-block;
