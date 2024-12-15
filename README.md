@@ -8,7 +8,7 @@ Invitacion de boda
     <title>Invitación de Boda</title>
     <style>
         body {
-            <body background="foto_sanpedro.jpeg" bgcolor="FFCECB">
+            <background-image="foto_sanpedro.jpeg" bgcolor="FFCECB">
         }
         h1 {
             color: #b38b6d;
