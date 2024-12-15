@@ -6,7 +6,7 @@
     <title>Invitación de Boda</title>
     <style>
         body {
-            background-image: url('https://github.com/Mauricio-andres-coder/Invitacion/blob/main/Foto_sanpedro.jpeg'); /* Ruta corregida */
+            background-image: url('Invitacion/blob/main/Foto_sanpedro.jpeg'); /* Ruta corregida */
             background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
             background-position: center; /* Centra la imagen */
             background-repeat: no-repeat; /* Evita repeticiones */
