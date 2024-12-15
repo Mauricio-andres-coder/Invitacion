@@ -14,7 +14,7 @@
             margin: 0; /* Elimina márgenes */
         }
         h1 {
-            color: green;
+            color: white;
             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra para destacar texto */
         }
         p, .date, a {
@@ -22,7 +22,7 @@
         }
         a.button {
             display: inline-block;
-            background-color: #FF69B4;
+            background-color: #33FFB2;
             color: white;
             padding: 10px 20px;
             text-decoration: none;
@@ -64,7 +64,7 @@
 
             if (timeLeft > 0) {
                 const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
-                const hours = Math.floor((timeLeft % (1000 * 60 * 60 )) / (1000 * 60 * 60));
+                const hours = Math.floor((timeLeft % (1000 * 60 * 60 *24)) / (1000 * 60 * 60));
                 const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
                 const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
 
