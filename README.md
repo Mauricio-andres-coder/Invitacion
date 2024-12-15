@@ -3,8 +3,7 @@ Invitacion de boda
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Invitación de Boda</title>
     <style>
         h1 {
@@ -26,6 +25,11 @@ Invitacion de boda
         }
     </style>
 </head>
+<head>
+<body>   
+    <background-image="foto_sanpedro.jpeg" bgcolor="FFCECB">
+</body>
+</head>
 <body>
     <h1>¡Nos Casamos!</h1>
     <p>Te invitamos a celebrar nuestra boda.</p>
@@ -34,7 +38,7 @@ Invitacion de boda
     <div class="date">Lugar: Jardin Paraiso, Tequequitengo</div>
     <p>Por favor, confirma tu asistencia:</p>
     <a href="#" class="button">Confirmar Asistencia</a>
-    <background-image="foto_sanpedro.jpeg" bgcolor="FFCECB">
+   
 </body>
 <html lang="en">
 <head>
