@@ -7,28 +7,12 @@ Invitacion de boda
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Invitación de Boda</title>
     <style>
-        h1 {
-            color: #b38b6d;
-        }
-        .date {
-            font-size: 1.5em;
-            margin: 20px 0;
-        }
-        .button {
-            background-color: #b38b6d;
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        .button:hover {
-            background-color: #a67c5c;
-        }  
-    </style>
+        background-image:url(Invitacion/Foto_sanpedro.jpeg);
+        
+     </style>
 </head>
 <body>
     <h1>¡Nos Casamos!</h1>
-    <background-image:url(Invitacion/Foto_sanpedro.jpeg)>
     <p>Te invitamos a celebrar nuestra boda.</p>
     <image src="Foto_sanpedro.jpeg" />
     <div class="date">Fecha: 21 de Noviembre de 2026</div>
