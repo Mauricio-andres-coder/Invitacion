@@ -1,4 +1,5 @@
 # Invitacion
+<background-image=url(Invitacion/Foto_sanpedro.jpeg)>
 Invitacion de boda
 <html lang="es">
 <head>
@@ -24,12 +25,6 @@ Invitacion de boda
             background-color: #a67c5c;
         }
     </style>
-</head>
-<head>
-<body>   
-    <background-image=url(Invitacion/Foto_sanpedro.jpeg)>
-      
-</body>
 </head>
 <body>
     <h1>¡Nos Casamos!</h1>
