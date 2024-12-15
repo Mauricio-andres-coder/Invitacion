@@ -28,7 +28,7 @@ Invitacion de boda
 </head>
 <body>
     <h1>¡Nos Casamos!</h1>
-    <h1>background-image:url(Invitacion/Foto_sanpedro.jpeg)</h1>
+    <background-image:url(Invitacion/Foto_sanpedro.jpeg)>
     <p>Te invitamos a celebrar nuestra boda.</p>
     <image src="Foto_sanpedro.jpeg" />
     <div class="date">Fecha: 21 de Noviembre de 2026</div>
