@@ -1,5 +1,5 @@
 # Invitacion
-<background-image=url(Invitacion/Foto_sanpedro.jpeg)>
+<background-image:url(Invitacion/Foto_sanpedro.jpeg)>
 Invitacion de boda
 <html lang="es">
 <head>
@@ -23,11 +23,12 @@ Invitacion de boda
         }
         .button:hover {
             background-color: #a67c5c;
-        }
+        }  
     </style>
 </head>
 <body>
     <h1>¡Nos Casamos!</h1>
+    <h1>background-image:url(Invitacion/Foto_sanpedro.jpeg)</h1>
     <p>Te invitamos a celebrar nuestra boda.</p>
     <image src="Foto_sanpedro.jpeg" />
     <div class="date">Fecha: 21 de Noviembre de 2026</div>
