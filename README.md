@@ -27,7 +27,8 @@ Invitacion de boda
 </head>
 <head>
 <body>   
-    <background-image="foto_sanpedro.jpeg" bgcolor="FFCECB">
+    <background-image="foto_sanpedro.jpeg">
+    
 </body>
 </head>
 <body>
