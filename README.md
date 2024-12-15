@@ -6,7 +6,7 @@ Invitacion de boda
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Invitación de Boda</title>
     <style>{
-        background-image:url(Foto_sanpedro.jpeg);
+        background-image:url('Foto_sanpedro.jpeg');
         background-size: cover;
         background-position: center; /* Centra la imagen */
         background-repeat: no-repeat; /* Evita que la imagen se repita */
