@@ -1,8 +1,4 @@
-<style>
-    h1:first-of-type {
-        display: none;
-    }
-</style>
+
 <DOCTYPE html>
 <html lang="es">
 <head>
