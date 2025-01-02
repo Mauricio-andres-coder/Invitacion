@@ -1,9 +1,9 @@
-<DOCTYPE html>
 <style>
     h1:first-of-type {
         display: none;
     }
 </style>
+<DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
