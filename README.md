@@ -48,18 +48,8 @@
             <div class="number" id="days">0</div>
             <div class="label">Días</div>
         </div>
-        <div class="time">
-            <div class="number" id="hours">0</div>
-            <div class="label">Horas</div>
-        </div>
-        <div class="time">
-            <div class="number" id="minutes">0</div>
-            <div class="label">Minutos</div>
-        </div>
-        <div class="time">
-            <div class="number" id="seconds">0</div>
-            <div class="label">Segundos</div>
-        </div>
+       
+    
     </div>
     <script>
         const weddingDate = new Date("2025-01-10T12:00:00").getTime(); 
