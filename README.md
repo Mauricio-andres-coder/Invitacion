@@ -6,7 +6,7 @@
     <title>Invitación Boda civil</title>
     <style>
         body {
-            background-image: url('Foto_sanpedro.jpeg'); /* Ruta corregida */
+            background-image: url('Foto_Sanpedro2.jpeg'); /* Ruta corregida */
             background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
             background-position: center; /* Centra la imagen */
             background-repeat: no-repeat; /* Evita repeticiones */
