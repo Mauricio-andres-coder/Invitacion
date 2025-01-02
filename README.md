@@ -84,6 +84,20 @@
 
         setInterval(updateCountdown, 1000);
     </script>
+    <style>
+    #countdown {
+        color: #FF5733; /* Cambia el color del texto del contador */
+    }
+    #countdown .number {
+        font-size: 2em; /* Tamaño de los números */
+        font-weight: bold; /* Números en negrita */
+        color: #FFD700; /* Color de los números */
+    }
+    #countdown .label {
+        font-size: 1em; /* Tamaño de las etiquetas */
+        color: #1E90FF; /* Color de las etiquetas */
+    }
+</style>
 </body>
 </html>
 
