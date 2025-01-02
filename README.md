@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Invitación de Boda</title>
+    <title>Invitación Boda civil</title>
     <style>
         body {
             background-image: url('Foto_sanpedro.jpeg'); /* Ruta corregida */
@@ -33,8 +33,8 @@
 </head>
 <body>
     <h1>¡Nos Casamos!</h1>
-    <p>Te invitamos a celebrar nuestra boda.</p>
-    <div class="date">Fecha: 21 de Noviembre de 2026</div>
+    <p>Te invitamos a celebrar nuestra boda civil.</p>
+    <div class="date">Fecha: 10 de Enero de 2025</div>
     <div class="date">Lugar: Jardín Paraíso, Tequequitengo</div>
     <p>Por favor, confirma tu asistencia:</p>
     <a href="#" class="button">Confirmar Asistencia</a>
@@ -57,7 +57,7 @@
         </div>
     </div>
     <script>
-        const weddingDate = new Date("2026-11-21T16:00:00").getTime(); 
+        const weddingDate = new Date("2025-01-10T12:00:00").getTime(); 
         function updateCountdown() {
             const now = new Date().getTime();
             const timeLeft = weddingDate - now;
