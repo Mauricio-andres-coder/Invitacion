@@ -14,7 +14,7 @@
             height: 100vh; /* Altura completa de la ventana */
             margin: 0; /* Elimina márgenes */
         }
-        h1 {
+        h2 {
             color: white;
             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra para destacar texto */
         }
@@ -33,9 +33,9 @@
     </style>
 </head>
 <body>
-    <h1>¡Nos Casamos!
+    <h2>¡Nos Casamos!
     <i class="fa-solid fa-heart"></i>
-    </h1>
+    </h2>
     <p>Te invitamos a celebrar nuestra boda civil.</p>
     <div class="date">Fecha: 10 de Enero de 2025</div>
     <div class="date">Lugar: Juzgado 8 del Registro Civil</div>
