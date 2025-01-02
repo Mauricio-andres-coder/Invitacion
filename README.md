@@ -35,7 +35,8 @@
     <h1>¡Nos Casamos!& # 10084</h1>
     <p>Te invitamos a celebrar nuestra boda civil.</p>
     <div class="date">Fecha: 10 de Enero de 2025</div>
-    <div class="date">Lugar: Jardín Paraíso, Tequequitengo</div>
+    <div class="date">Lugar: Juzgado 8 del Registro Civil</div>
+    <a href="https://www.google.com/maps/place/Juzgado+civil+8/@19.4114809,-99.1611409,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff3cfd8b33f1:0x809ea7dac69472e4!8m2!3d19.4114759!4d-99.158566!16s%2Fg%2F1thsg85_?hl=es&entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D/">Visita nuestro Tutorial HTML</a>
     <p>Por favor, confirma tu asistencia:</p>
     <a href="#" class="button">Confirmar Asistencia</a>
     <div id="countdown">
