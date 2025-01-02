@@ -32,7 +32,7 @@
     </style>
 </head>
 <body>
-    <h1>¡Nos Casamos!</h1>
+    <h1>¡Nos Casamos!& # 10084;</h1>
     <p>Te invitamos a celebrar nuestra boda civil.</p>
     <div class="date">Fecha: 10 de Enero de 2025</div>
     <div class="date">Lugar: Jardín Paraíso, Tequequitengo</div>
