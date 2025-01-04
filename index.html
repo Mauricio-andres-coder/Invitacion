@@ -14,19 +14,24 @@
             margin: 0;
             display: flex;
             flex-direction: column;
-            justify-content: flex-start; /* Cambiamos para alinear hacia arriba */
+            justify-content: flex-start;
             align-items: center;
             text-align: center;
             color: white;
-            padding-top: 20px; /* Añadimos espacio desde la parte superior */
+            padding-top: 20px;
         }
 
         h2 {
-            font-size: 3em; /* Tamaño más grande */
-            color: white; /* Cambiamos a amarillo dorado */
-            text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8); /* Sombra para destacar el texto */
-            margin: 0; /* Eliminamos márgenes extra */
-            padding-bottom: 10px; /* Espacio adicional debajo del texto */
+            font-size: 3em;
+            color: white; /* El texto de ¡Nos Casamos! es blanco */
+            text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+            margin: 0;
+            padding-bottom: 10px;
+        }
+
+        h2 i {
+            color: red; /* El corazón será de color rojo */
+            margin-left: 10px; /* Espacio entre el texto y el corazón */
         }
 
         p, .date, a {
@@ -37,7 +42,7 @@
         a.button {
             display: inline-block;
             background-color: #33FFB2;
-            color: sky blue;
+            color: skyblue;
             padding: 10px 20px;
             text-decoration: none;
             border-radius: 5px;
@@ -51,7 +56,7 @@
         #countdown .number {
             font-size: 2em;
             font-weight: bold;
-            color: #FFD700;
+            color: #FFD700; /* El contador sigue siendo amarillo */
         }
 
         #countdown .label {
@@ -63,43 +68,23 @@
 <body>
     <h2>¡Nos Casamos! <i class="fa-solid fa-heart"></i></h2>
     <p>Te invitamos a celebrar nuestra boda civil.</p>
-    <div class="date">Fecha: 10 de Enero de 2025 a las 12 pm </div>
+    <div class="date">Fecha: 10 de Enero de 2025 a las 12 pm</div>
     <div class="date">Lugar: Juzgado 8 del Registro Civil</div>
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <a href="https://www.google.com/maps/place/Juzgado+civil+8/@19.4114809,-99.1611409,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff3cfd8b33f1:0x809ea7dac69472e4!8m2!3d19.4114759!4d-99.158566!16s%2Fg%2F1thsg85_?hl=es&entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D/"> 
         <i class="fa-solid fa-location-dot"></i> Cómo Llegar a la Ceremonia
     </a>
-    <div class="date">Hora Celebracion: 6 pm</div>
+    <div class="date">Hora Celebración: 6 pm</div>
     <a href="https://www.google.com.mx/maps/place/Av+San+Bernab%C3%A9+169,+Independencia+Batan+Norte,+Independencia+Batan+Nte,+La+Magdalena+Contreras,+10100+Ciudad+de+M%C3%A9xico,+CDMX/@19.3355894,-99.2124328,2868a,13.1y/data=!3m5!1e1!3m3!1sItyvsZsyOvbiGiVyitpsjQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D90%26panoid%3DItyvsZsyOvbiGiVyitpsjQ%26yaw%3D0!4m6!3m5!1s0x85d20075515c4819:0x733ff3ee6e63128b!8m2!3d19.3355894!4d-99.2124328!16s%2Fg%2F11s6f588x_?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D">
-        <i class="fa-solid fa-location-dot"></i> Cómo Llegar a la Celebracion
+        <i class="fa-solid fa-location-dot"></i> Cómo Llegar a la Celebración
     </a>
-        <div id="countdown">
+    <div id="countdown">
         <div class="time">
             <div class="number" id="days">0</div>
             <div class="label">Días</div>
         </div>
     </div>
-
-    <script>
-        const weddingDate = new Date("2025-01-10T12:00:00").getTime(); 
-        function updateCountdown() {
-            const now = new Date().getTime();
-            const timeLeft = weddingDate - now;
-
-            if (timeLeft > 0) {
-                const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
-                document.getElementById("days").innerText = days;
-            } else {
-                document.getElementById("countdown").innerHTML = "<h2>¡Hoy es el gran día!</h2>";
-            }
-        }
-
-        setInterval(updateCountdown, 1000);
-    </script>
-</body>
-</html>
-
 
     <script>
         const weddingDate = new Date("2025-01-10T12:00:00").getTime(); 
