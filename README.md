@@ -6,7 +6,7 @@
     <title>Invitación Boda Civil</title>
     <style>
         body {
-            background-image: url('Foto_Sanpedro2.jpeg'); /* Ruta corregida */
+            background-image: url('Foto_Sanpedro2.jpeg');
             background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
             background-position: center; /* Centra la imagen */
             background-repeat: no-repeat; /* Evita repeticiones */
@@ -51,7 +51,7 @@
         }
         #countdown .label {
             font-size: 1em; /* Tamaño de las etiquetas */
-            color: #1E90FF; /* Color de las etiquetas */
+            color: #FFD700; /* Color de las etiquetas */
         }
     </style>
 </head>
