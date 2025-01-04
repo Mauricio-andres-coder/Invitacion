@@ -22,11 +22,6 @@
         h2 {
             color: white;
             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-            display: flex;
-            align-items: center;
-        }
-        h2 i {
-            margin-left: 10px;
         }
         p, .date, a {
             color: white;
@@ -41,16 +36,16 @@
             font-weight: bold;
         }
         #countdown {
-            margin-left: 20px;
+            color: #FFD700;
         }
         #countdown .number {
             font-size: 2em;
             font-weight: bold;
-            color: yellow !important; /* Forzamos amarillo */
+            color: #FFD700;
         }
         #countdown .label {
             font-size: 1em;
-            color: yellow !important; /* Forzamos amarillo */
+            color: #FFD700;
         }
     </style>
 </head>
@@ -62,7 +57,7 @@
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <a href="https://www.google.com/maps/place/Juzgado+civil+8/@19.4114809,-99.1611409,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1ff3cfd8b33f1:0x809ea7dac69472e4!8m2!3d19.4114759!4d-99.158566!16s%2Fg%2F1thsg85_?hl=es&entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D/"> 
-        <i class="fa-solid fa-location-dot"></i> Como Llegar a la Ceremonia
+        <i class="fa-solid fa-location-dot"></i> Cómo Llegar a la Ceremonia
     </a>
 
     <div id="countdown">
@@ -90,5 +85,7 @@
     </script>
 </body>
 </html>
+
+
 
 
