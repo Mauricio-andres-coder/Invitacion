@@ -14,18 +14,26 @@
             margin: 0;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: flex-start; /* Cambiamos para alinear hacia arriba */
             align-items: center;
             text-align: center;
             color: white;
+            padding-top: 20px; /* Añadimos espacio desde la parte superior */
         }
+
         h2 {
-            color: white;
-            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+            font-size: 3em; /* Tamaño más grande */
+            color: #FFD700; /* Cambiamos a amarillo dorado */
+            text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8); /* Sombra para destacar el texto */
+            margin: 0; /* Eliminamos márgenes extra */
+            padding-bottom: 10px; /* Espacio adicional debajo del texto */
         }
+
         p, .date, a {
             color: white;
+            font-size: 1.2em;
         }
+
         a.button {
             display: inline-block;
             background-color: #33FFB2;
@@ -35,14 +43,17 @@
             border-radius: 5px;
             font-weight: bold;
         }
+
         #countdown {
             color: #FFD700;
         }
+
         #countdown .number {
             font-size: 2em;
             font-weight: bold;
             color: #FFD700;
         }
+
         #countdown .label {
             font-size: 1em;
             color: #FFD700;
@@ -66,6 +77,26 @@
             <div class="label">Días</div>
         </div>
     </div>
+
+    <script>
+        const weddingDate = new Date("2025-01-10T12:00:00").getTime(); 
+        function updateCountdown() {
+            const now = new Date().getTime();
+            const timeLeft = weddingDate - now;
+
+            if (timeLeft > 0) {
+                const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+                document.getElementById("days").innerText = days;
+            } else {
+                document.getElementById("countdown").innerHTML = "<h2>¡Hoy es el gran día!</h2>";
+            }
+        }
+
+        setInterval(updateCountdown, 1000);
+    </script>
+</body>
+</html>
+
 
     <script>
         const weddingDate = new Date("2025-01-10T12:00:00").getTime(); 
