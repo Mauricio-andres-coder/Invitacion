@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Invitación Boda Civil</title>
+    <title>¡Nos Casamos!</title>
     <style>
         body {
             background-image: url('Foto_Sanpedro2.jpeg');
-            background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
-            background-position: center; /* Centra la imagen */
-            background-repeat: no-repeat; /* Evita repeticiones */
-            height: 100vh; /* Altura completa de la ventana */
-            margin: 0; /* Elimina márgenes */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            margin: 0;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -21,12 +21,12 @@
         }
         h2 {
             color: white;
-            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra para destacar texto */
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
             display: flex;
             align-items: center;
         }
         h2 i {
-            margin-left: 10px; /* Espacio entre el texto y el ícono del corazón */
+            margin-left: 10px;
         }
         p, .date, a {
             color: white;
@@ -41,17 +41,17 @@
             font-weight: bold;
         }
         #countdown {
-            margin-left: 20px; /* Espacio entre el texto y el contador */
-            color: #FFD700; /* Cambia el color del texto del contador */
+            margin-left: 20px;
+        }
+        #countdown .number, #countdown .label {
+            color: yellow; /* Cambiado a amarillo */
         }
         #countdown .number {
-            font-size: 2em; /* Tamaño de los números */
-            font-weight: bold; /* Números en negrita */
-            color: #FFD700; /* Color de los números */
+            font-size: 2em;
+            font-weight: bold;
         }
         #countdown .label {
-            font-size: 1em; /* Tamaño de las etiquetas */
-            color: #FFD700; /* Color de las etiquetas */
+            font-size: 1em;
         }
     </style>
 </head>
@@ -91,5 +91,6 @@
     </script>
 </body>
 </html>
+
 
 
