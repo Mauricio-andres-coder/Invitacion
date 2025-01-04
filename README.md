@@ -46,11 +46,11 @@
         #countdown .number {
             font-size: 2em;
             font-weight: bold;
-            color: yellow !important; /* Color amarillo */
+            color: yellow !important; /* Forzamos amarillo */
         }
         #countdown .label {
             font-size: 1em;
-            color: yellow !important; /* Color amarillo */
+            color: yellow !important; /* Forzamos amarillo */
         }
     </style>
 </head>
@@ -90,4 +90,5 @@
     </script>
 </body>
 </html>
+
 
