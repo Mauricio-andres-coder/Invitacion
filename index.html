@@ -4,18 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>¡Nos Casamos!</title>
-
-    <audio id="background-audio" loop>
+<audio id="background-audio" loop>
     <source src="Chasing_cars.mp3" type="audio/mpeg">
     Tu navegador no soporta audio HTML.
 </audio>
 
-<button id="audio-control" onclick="toggleAudio()">Reproducir Música</button>
+<button id="audio-control" onclick="toggleAudio()">Pausar Música</button>
 
 <script>
     const audio = document.getElementById('background-audio');
     const button = document.getElementById('audio-control');
 
+    // Reproducir automáticamente al cargar la página
+    window.addEventListener('DOMContentLoaded', () => {
+        try {
+            audio.play();
+            button.textContent = 'Pausar Música';
+        } catch (error) {
+            console.warn('El navegador bloqueó la reproducción automática.');
+            button.textContent = 'Reproducir Música';
+        }
+    });
+
+    // Función para alternar reproducción y pausa
     function toggleAudio() {
         if (audio.paused) {
             audio.play();
@@ -26,6 +37,9 @@
         }
     }
 </script>
+
+
+
 
     <style>
         body {
