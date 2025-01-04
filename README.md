@@ -43,15 +43,14 @@
         #countdown {
             margin-left: 20px;
         }
-        #countdown .number, #countdown .label {
-            color: yellow; /* Cambiado a amarillo */
-        }
         #countdown .number {
             font-size: 2em;
             font-weight: bold;
+            color: yellow !important; /* Color amarillo */
         }
         #countdown .label {
             font-size: 1em;
+            color: yellow !important; /* Color amarillo */
         }
     </style>
 </head>
@@ -91,3 +90,4 @@
     </script>
 </body>
 </html>
+
