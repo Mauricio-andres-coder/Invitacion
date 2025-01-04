@@ -42,7 +42,7 @@
         }
         #countdown {
             margin-left: 20px; /* Espacio entre el texto y el contador */
-            color: #FF5733; /* Cambia el color del texto del contador */
+            color: #FFD700; /* Cambia el color del texto del contador */
         }
         #countdown .number {
             font-size: 2em; /* Tamaño de los números */
