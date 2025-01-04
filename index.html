@@ -4,10 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>¡Nos Casamos!</title>
-    <audio autoplay loop>
+
+    <audio id="background-audio" loop>
     <source src="Chasing_cars.mp3" type="audio/mpeg">
     Tu navegador no soporta audio HTML.
-    </audio>
+</audio>
+
+<button id="audio-control" onclick="toggleAudio()">Reproducir Música</button>
+
+<script>
+    const audio = document.getElementById('background-audio');
+    const button = document.getElementById('audio-control');
+
+    function toggleAudio() {
+        if (audio.paused) {
+            audio.play();
+            button.textContent = 'Pausar Música';
+        } else {
+            audio.pause();
+            button.textContent = 'Reproducir Música';
+        }
+    }
+</script>
+
     <style>
         body {
             background-image: url('Foto_Sanpedro2.jpeg');
